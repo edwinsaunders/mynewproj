@@ -1,0 +1,51 @@
+# ---- Build output ----
+/build/
+/bin/
+/obj/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# ---- Debug / profiling ----
+gmon.out
+perf.data
+perf.data.*
+
+# ---- Core dumps ----
+core
+core.*
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Compile database (clangd, etc.) ----
+compile_commands.json
+
+# ---- CMake/Meson (if you ever add them) ----
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.user
+meson-private/
+meson-logs/
+meson-info/
+
+# ---- Misc ----
+*.log
+
+# ---- bak ----
+*.bak
