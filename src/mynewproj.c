@@ -37,10 +37,16 @@ int pop(void) {
 
 int main(int argc, char *argv[])
 {
-  push(5);
-  push(3);
-  printf("%d\n", pop());
+  int count = 5;
+  int a;
 
+  for (size_t i = 0; i < count; i++) {
+    scanf("%d", &a);
+    push(a);
+  }
+  for (size_t i = 0; i < count; i++) {
+    printf("%d\n", pop());
+  }
   puts("This function doesn't need newline.");
   return EXIT_SUCCESS;
 }
